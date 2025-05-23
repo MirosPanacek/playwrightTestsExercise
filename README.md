@@ -3,7 +3,8 @@ Playwright exercise \
 Api is from URL: https://reqres.in \
 Example tests for methods GET, POST, PUT and DELETE.
 ## Requirements: ##
-node.js v19.9.0
+- node.js v19.9.0
+- npm v9.6.3
 
 ### Run: ###
 npx playwright test --ui \
