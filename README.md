@@ -1,5 +1,7 @@
 # Playwright Tests Exercise
-Playwright exercise
+Playwright exercise \
+Api is from URL: https://reqres.in \
+Example tests for methods GET, POST, PUT and DELETE.
 ## Requirements: ##
 node.js v19.9.0
 
