@@ -1,0 +1,7 @@
+services:
+  tests:
+    build: .
+    volumes:
+      - ./playwright-report:/app/playwright-report
+    working_dir: /app
+    command: ["npx", "playwright", "test"]
