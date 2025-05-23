@@ -1,6 +1,6 @@
 # Playwright Tests Exercise
 Playwright exercise
-##Requirements:##
+## Requirements: ##
 node.js v19.9.0
 
 **Run:**
