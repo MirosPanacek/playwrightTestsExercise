@@ -1,2 +1,2 @@
-# playwrightTestsExercise
+# Playwright Tests Exercise
 Playwright exercise 
