@@ -16,7 +16,7 @@ test.beforeAll(async () => {
         extraHTTPHeaders: {
             'x-api-key': 'reqres-free-v1'
         }
-    });updatedUser
+    });
 });
 
 test.afterAll(async () => {
