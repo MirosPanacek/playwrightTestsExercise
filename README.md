@@ -28,7 +28,7 @@ Test results is in: **./playwright-report/index.html**
 If the command `npx playwright show-report` opens an empty browser window, check whether the port used for the report is already occupied by another service.
 
 ## Test cases ##
-**Test Case ID:** TC001  
+### Test Case ID: TC001 ##  
 **Title:** GET valid request for user with ID 2  
 **Description:** Verify that the `users/2` endpoint returns status 200, includes the name "Janet", and matches the expected JSON schema.  
 **Input:**  
@@ -40,7 +40,7 @@ If the command `npx playwright show-report` opens an empty browser window, check
 - JSON response is valid against `user.response.schema.json`  
 **Tags:** @smoke  
 **Notes:** Includes schema validation
-**Test Case ID:** TC002  
+### Test Case ID: TC002 ###  
 **Title:** GET request with invalid user IDs  
 **Description:** Iterate over invalid user IDs and verify the `users/:id` endpoint returns status 404.  
 **Input:**  
@@ -50,7 +50,7 @@ If the command `npx playwright show-report` opens an empty browser window, check
 - Status code `404`  
 **Tags:** @smoke  
 **Notes:** Uses `badUsers` array to iterate over invalid inputs
-**Test Case ID:** TC003  
+### Test Case ID: TC003 ###
 **Title:** GET valid request for users on page 2  
 **Description:** Verify that the `users?page=2` endpoint returns status 200 and the response matches the expected JSON schema.  
 **Input:**  
@@ -61,7 +61,7 @@ If the command `npx playwright show-report` opens an empty browser window, check
 - JSON response is valid against `get.users.response.schema.json`  
 **Tags:** —  
 **Notes:** Includes schema validation
-**Test Case ID:** TC004  
+### Test Case ID: TC004 ### 
 **Title:** GET request with invalid page query parameters  
 **Description:** Iterate over invalid `page` query values and verify that the `users?page=<value>` endpoint returns status 404.  
 **Input:**  
