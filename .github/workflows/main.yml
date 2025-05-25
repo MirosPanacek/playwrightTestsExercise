@@ -1,11 +1,11 @@
 name: Playwright Tests Exercise
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main]
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
 jobs:
   test:
     timeout-minutes: 60
