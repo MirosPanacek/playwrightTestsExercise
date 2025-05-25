@@ -8,5 +8,6 @@ export const badUsers = [
     { user: "//" },
     { user: "null" },
     { user: " " },
-    {user: 2147483648}
+    {user: 2147483648},
+    {user: "%"}
 ];

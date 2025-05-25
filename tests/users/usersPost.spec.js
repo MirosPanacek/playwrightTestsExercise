@@ -1,6 +1,6 @@
-import { test, expect } from '../utils/Fixtures';
-import { SchemaValidator } from '../utils/SchemaValidator';
-import { newUser } from '../testingData/Users';
+import { test, expect } from '../../utils/Fixtures';
+import { SchemaValidator } from '../../utils/SchemaValidator';
+import { newUser } from '../../testingData/Users';
 
 test.beforeEach(async () => {
 

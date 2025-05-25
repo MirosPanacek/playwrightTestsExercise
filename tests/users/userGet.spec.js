@@ -27,7 +27,7 @@ test('TC001 GET Request users/2', { tag: '@smoke' }, async ({ requestContext }) 
 TC002
 */
 badUsers.forEach(({ user }) => {
-    test(`TC002 GET bad request users/2 user: ${user}`, { tag: '@smoke' }, async ({ requestContext }) => {
+    test(`TC002 GET bad request users/2 user: ${user}`, async ({ requestContext }) => {
         const response = await requestContext.get('users/' + user);
         expect(response.status()).toBe(404);
     });

@@ -48,7 +48,7 @@ If the command `npx playwright show-report` opens an empty browser window, check
 - Endpoints like: `users/abc`, `users/-1`, `users/9999`  
 **Expected Output:**  
 - Status code `404`  
-**Tags:** @smoke  
+**Tags:** -
 **Notes:** Uses `badUsers` array to iterate over invalid inputs
 ### Test Case ID: TC003 ###
 **Title:** GET valid request for users on page 2  
