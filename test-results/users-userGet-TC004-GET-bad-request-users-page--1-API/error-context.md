@@ -1,7 +1,7 @@
 # Test info
 
 - Name: TC004 GET bad request users?page=-1
-- Location: /home/mp/Dokumenty/AppTesting/playwrightTestsExercise/tests/users/userGet.spec.js:51:9
+- Location: /home/mp/Dokumenty/AppTesting/playwrightTestsExercise/tests/users/userGet.spec.js:51:5
 
 # Error details
 
@@ -9,7 +9,7 @@
 Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: 404
-Received: 200
+Received: 429
     at /home/mp/Dokumenty/AppTesting/playwrightTestsExercise/tests/users/userGet.spec.js:53:35
 ```
 

@@ -1,19 +1,15 @@
-const base = require('@playwright/test');
+import { test as base, expect } from '@playwright/test';
+import { baseURL, extraHTTPHeaders } from './RequestConfig.js';
 
-exports.test = base.test.extend({
-    requestContext: async ({ playwright }, use) => {
-        const context = await playwright.request.newContext({
-            baseURL: 'https://reqres.in/api/',
-            extraHTTPHeaders: {
-                'Content-Type': 'application/json',
-                'x-api-key': 'reqres-free-v1'
-            }
-        });
-        await use(context);
-        await context.dispose();
-    }
-
-    
+export const test = base.extend({
+  requestContext: async ({ playwright }, use) => {
+    const context = await playwright.request.newContext({
+      baseURL,
+      extraHTTPHeaders,
+    });
+    await use(context);
+    await context.dispose();
+  },
 });
 
-exports.expect = base.expect;
+export { expect };

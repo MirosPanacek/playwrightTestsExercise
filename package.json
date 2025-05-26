@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "First Paywrigth Test",
   "main": "index.js",
+  "type": "module",
   "scripts": {},
   "keywords": [],
   "author": "",
